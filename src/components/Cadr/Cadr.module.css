@@ -1,0 +1,12 @@
+.card{
+    width: 300px;
+    background-color: #00DAD9;
+    border-radius: 15px;
+    padding: 1%;
+}
+.poster{
+    width: 100%;
+}
+.image{
+    width: 290px;
+}
