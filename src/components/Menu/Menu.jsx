@@ -11,9 +11,10 @@ export const Menu = () => {
                 justifyContent: "center",
                 gap: "10px",
                 padding: "0",
+                textDecoration:"none"
             }}>
                 <li><NavLink to='/' className={({ isActive }) =>
-                    `${isActive ? "active" : ""}`}>Главная</NavLink></li>
+                    `${isActive ? "active" : ""}`} >Главная</NavLink></li>
                 <li><NavLink to='/projects'>Проекты</NavLink></li>
                 <li><NavLink to='/about-us'>О нас</NavLink></li>
                 <li><NavLink to='/contacts'>Контакты</NavLink></li>
