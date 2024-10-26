@@ -9,6 +9,7 @@ export const Main = () => {
       {allProjectList.map((project) =>
         <Cadr
           key={project.id}
+          id={project.id}
           title={project.title}
           description={project.description}
           image={project.image}

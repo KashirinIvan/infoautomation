@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Cadr.module.css'
+import { Link } from 'react-router-dom'
 
-export const Cadr = ({ title, description, image, year, customer }) => {
+export const Cadr = ({id, title, description, image, year, customer }) => {
     return (
         <div className={styles.card}>
             <h3>{title}</h3>
@@ -9,6 +10,7 @@ export const Cadr = ({ title, description, image, year, customer }) => {
             <img className={styles.image} src={image} alt={`${title}`} />
             <p>Год: {year}</p>
             <p>Заказчик: {customer}"</p>
+            <button><Link to={`/projects/${id}`}>Подробнее</Link></button>
         </div>
     )
 }
