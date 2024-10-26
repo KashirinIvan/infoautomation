@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './Main.module.css'
 import { Cadr } from '../Cadr/Cadr'
-import { projectList } from '../../constants/projectList'
+import { allProjectList } from '../../constants/allProjectList'
 
 export const Main = () => {
   return (
     <main className={styles.main}>
-      {projectList.map((project) =>
+      {allProjectList.map((project) =>
         <Cadr
           key={project.id}
           title={project.title}

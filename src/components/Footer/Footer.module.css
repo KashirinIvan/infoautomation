@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footerIcon {
+    height: 36px;
+    width: 36px;
+
+}
+.footerPhone {
+    height: 25px;
+    width: 25px;
+
+}
+.line {
+    border: 1px solid #00DAD9;
+    width: 100%;
+}

@@ -1,7 +1,35 @@
 import React from 'react'
+import styles from "./Footer.module.css"
 
 export const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
+    return (
+        <footer>
+            <div className={styles.line}></div>
+            <div className={styles.footer}>
+                <a href="tel:+7 (962) 827-15-24">
+                    <img
+                        className={styles.footerPhone}
+                        src='/src/assets/icons/Phone.png'
+                        alt='Иконка Телефона'
+                    />
+                </a>
+
+                <a href="https://t.me/Ivan_Andreevich_Kashirin">
+                    <img
+                        className={styles.footerIcon}
+                        src='/src/assets/icons/TG.svg'
+                        alt='Иконка Телеграм'
+                    />
+                </a>
+
+                <a href="mailto:info@infoautomation.ru">
+                    <img
+                        className={styles.footerIcon}
+                        src="/src/assets/icons/Email.svg"
+                        alt='Иконка почты'
+                    />
+                </a>
+            </div>
+        </footer>
+    )
 }

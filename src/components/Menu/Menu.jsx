@@ -13,6 +13,7 @@ export const Menu = () => {
             }}>
                 <li><NavLink to='/' className={({ isActive }) =>
                     `${isActive ? "active" : ""}`}>Главная</NavLink></li>
+                <li><NavLink to='/projects'>Проекты</NavLink></li>
                 <li><NavLink to='/about-us'>О нас</NavLink></li>
                 <li><NavLink to='/contacts'>Контакты</NavLink></li>
             </ul>

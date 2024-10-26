@@ -1,4 +1,4 @@
-export const projectList = [
+export const allProjectList = [
     {
         id: 1,
         title: "Название проекта",

@@ -6,9 +6,7 @@ export const Cadr = ({ title, description, image, year, customer }) => {
         <div className={styles.card}>
             <h3>{title}</h3>
             <p>{description}</p>
-            <div className={styles.poster}>
-                <img className={styles.image} src={image} alt={`${title}`} />
-            </div>
+            <img className={styles.image} src={image} alt={`${title}`} />
             <p>Год: {year}</p>
             <p>Заказчик: {customer}"</p>
         </div>

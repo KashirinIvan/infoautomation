@@ -1,3 +1,6 @@
 .active{
-    border-bottom: 1px solid #00DAD9;;
+    border-bottom: 1px solid #00DAD9;
+}
+.menu{
+    color: black;
 }
