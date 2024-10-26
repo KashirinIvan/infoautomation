@@ -9,7 +9,8 @@ export const Menu = () => {
                 listStyle: "none",
                 display: "flex",
                 justifyContent: "center",
-                gap: "25px",
+                gap: "10px",
+                padding: "0",
             }}>
                 <li><NavLink to='/' className={({ isActive }) =>
                     `${isActive ? "active" : ""}`}>Главная</NavLink></li>
