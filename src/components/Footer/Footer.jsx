@@ -9,7 +9,7 @@ export const Footer = () => {
                 <a href="tel:+7 (962) 827-15-24">
                     <img
                         className={styles.footerPhone}
-                        src='/src/assets/icons/Phone.png'
+                        src='/Phone.png'
                         alt='Иконка Телефона'
                     />
                 </a>
@@ -17,7 +17,7 @@ export const Footer = () => {
                 <a href="https://t.me/Ivan_Andreevich_Kashirin">
                     <img
                         className={styles.footerIcon}
-                        src='/src/assets/icons/TG.svg'
+                        src='/TG.svg'
                         alt='Иконка Телеграм'
                     />
                 </a>
@@ -25,7 +25,7 @@ export const Footer = () => {
                 <a href="mailto:info@infoautomation.ru">
                     <img
                         className={styles.footerIcon}
-                        src="/src/assets/icons/Email.svg"
+                        src="/Email.svg"
                         alt='Иконка почты'
                     />
                 </a>
