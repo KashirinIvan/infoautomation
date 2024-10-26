@@ -2,7 +2,8 @@ export const allProjectList = [
     {
         id: 1,
         title: "Название проекта",
-        description: "Описание проекта",
+        description: "Описание проекта краткое",
+		descriptionAll: "Описание проекта полное",
         image: '/logo.png',
         year: "2020",
         customer: "ООО \"",
@@ -10,7 +11,8 @@ export const allProjectList = [
     {
         id: 2,
         title: "Название проекта 2",
-        description: "Описание проекта 2",
+        description: "Описание проекта краткое 2",
+		descriptionAll: "Описание проекта полное 2",
         image: '/logo.png',
         year: "2021",
         customer: "ООО \"",
@@ -18,7 +20,8 @@ export const allProjectList = [
     {
         id: 3,
         title: "Название проекта 3",
-        description: "Описание проекта 3",
+        description: "Описание проекта краткое 3",
+		descriptionAll: "Описание проекта полное 3",
         image: '/logo.png',
         year: "2022",
         customer: "ООО \"",
@@ -26,7 +29,8 @@ export const allProjectList = [
     {
         id: 4,
         title: "Название проекта 4",
-        description: "Описание проекта 4",
+        description: "Описание проекта краткое 4",
+		descriptionAll: "Описание проекта полное 4",
         image: '/logo.png',
         year: "2023",
         customer: "ООО \"",
