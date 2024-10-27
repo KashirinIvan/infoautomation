@@ -9,7 +9,6 @@ export const Cadr = ({id, title, description, image, year, customer }) => {
             <p>{description}</p>
             <img className={styles.image} src={image} alt={`${title}`} />
             <p>Год: {year}</p>
-            <p>Заказчик: {customer}"</p>
             <button><Link to={`/projects/${id}`} className={styles.button}>Подробнее</Link></button>
         </div>
     )
