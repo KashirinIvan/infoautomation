@@ -6,7 +6,7 @@ export const Footer = () => {
         <footer>
             <div className={styles.line}></div>
             <div className={styles.footer}>
-                <a href="tel:+7 (***) ***-**-**">
+                <a href="tel:+7 (962) 827-15-24">
                     <img
                         className={styles.footerPhone}
                         src='/Phone.png'
@@ -22,7 +22,7 @@ export const Footer = () => {
                     />
                 </a>
 
-                <a href="mailto:****@infoautomation.ru">
+                <a href="mailto:info@infoautomation.ru">
                     <img
                         className={styles.footerIcon}
                         src="/Email.svg"
