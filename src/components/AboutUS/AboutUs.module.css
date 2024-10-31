@@ -2,11 +2,17 @@
     text-align: justify;
     white-space: pre-line;
 }
-.aboutUsImage{
+
+.aboutUsImage {
     display: flex;
     justify-content: center;
 }
+
 .image {
     width: 290px;
 
+}
+
+.bold {
+    font-weight: bold;
 }
