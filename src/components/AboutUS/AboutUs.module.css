@@ -1,0 +1,12 @@
+.text {
+    text-align: justify;
+    white-space: pre-line;
+}
+.aboutUsImage{
+    display: flex;
+    justify-content: center;
+}
+.image {
+    width: 290px;
+
+}
