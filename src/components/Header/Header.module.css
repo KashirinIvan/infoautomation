@@ -1,7 +1,8 @@
 .header {
     display: flex;
     flex-direction: column;
-    position: sticky ;
+
+    background-color: white;
 }
 
 .headerTop {
