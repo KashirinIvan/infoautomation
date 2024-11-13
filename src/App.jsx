@@ -10,6 +10,7 @@ import { allProjectList } from "./constants/allProjectList";
 import { ProjectsList } from "./components/ProjectsList/ProjectsList";
 
 function App() {
+
   return (
     <div className="wrapper">
       <Header />
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
+    
   );
 }
 
