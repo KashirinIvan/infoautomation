@@ -6,7 +6,7 @@ export const Projects = ({ projectList }) => {
     let { id } = useParams();
     const project = projectList.find((project) => project.id === Number(id));
         return (
-            <div>
+            <div className={styles.project}>
                 <h3>{project.title}</h3>
                 <h4>Описание проекта</h4>
                 <p className={styles.descriptionAll}>{project.descriptionAll}</p>

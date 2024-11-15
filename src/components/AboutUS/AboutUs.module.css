@@ -1,6 +1,7 @@
 .text {
     text-align: justify;
     white-space: pre-line;
+    margin: 1%;
 }
 
 .aboutUsImage {
